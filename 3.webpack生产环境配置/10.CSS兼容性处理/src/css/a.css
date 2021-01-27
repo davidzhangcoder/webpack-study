@@ -1,0 +1,21 @@
+.box1 {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    display: flex;
+    backface-visibility: hidden;
+    background-image: linear-gradient('left',#6FFFAF, #44B296);
+    background : linear-gradient(to top, black, white);
+    transform: translateX(100px);
+}
+
+.box3 {
+    width: 200px;
+    height: 200px;
+    background : radial-gradient( black, white);
+    /* transform: translateX(100px); */
+}
+
+::placeholder{
+    color:red;
+}
